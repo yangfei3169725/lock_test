@@ -16,7 +16,7 @@ public class CountDownLachTest implements Callable<Integer>{
 //	private CountDownLatch countDownLatch = new CountDownLatch(6);
 	private CyclicBarrier countDownLatch = new CyclicBarrier(6);
 	public static void main(String[] args) throws InterruptedException, ExecutionException, BrokenBarrierException {
-		System.out.println("正式提交git");
+		System.out.println("正式提交gitaaa");
 		CountDownLachTest countDownLachTest = new CountDownLachTest();
 		ExecutorService executorService = Executors.newFixedThreadPool(6);
 		List<FutureTask> futureTaskList = new ArrayList<>();
